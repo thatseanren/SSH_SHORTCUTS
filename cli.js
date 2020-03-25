@@ -1,4 +1,4 @@
-
+#!/usr/bin/env node
 /*
     usage: node FIle_transmission.js HOST_NAME [FILE_NAME | CONNECT ]
 **/
@@ -18,6 +18,7 @@ const standard_output = process.stdout
 const getProperty = Object.getOwnPropertyNames
 //Application variable
 const host = {
+
     Droplet: {
         ip: '',
         key: '~/.ssh/EXPRESS_',
