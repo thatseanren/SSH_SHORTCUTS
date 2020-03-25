@@ -1,7 +1,9 @@
 # SSH_SHORTCUTS
+## This file could reduce the action of copy local file to remote server into two arguments command.  ##
+## This file could reduce the action of connecting to remote server into two arguments command.  ##
 
-### send website file to server in one command line using node.
-    `node FIle_transmission.js HOST_NAME [FILE_NAME | CONNECT ] `
+###  `node FIle_transmission.js HOST_NAME [FILE_NAME | CONNECT ] `
+   
 ## Package
 
 ### child_process
