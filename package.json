@@ -2,7 +2,7 @@
   "name": "ssh-shortcuts",
   "version": "1.0.0",
   "description": "This package is written in a demand of reducing action for connecting remote server and copying local file to remote server. ",
-  "main": "Server Shortcuts.js",
+  "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,7 @@
   "keywords": [
     "SSH"
   ],
+  "bin": {"server":"cli.js",},
   "author": "Sean Ren",
   "license": "ISC",
   "bugs": {
